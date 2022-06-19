@@ -1,9 +1,5 @@
-let a = 2;
-let b = 4;
-let c = 10;
+let b = 10;
+let a = `Он сказал ${b} раз привет`;
 
-console.log("a =", a, "b =", b);
-
-b = c
-
-console.log(a + b);
+console.log(a);
+console.log(typeof a);
