@@ -1,7 +1,9 @@
-let a, b;
-// a = 2;
-// b = 4;
+let a = 2;
+let b = 4;
+let c = 10;
 
-a + b
+console.log("a =", a, "b =", b);
+
+b = c
 
 console.log(a + b);
