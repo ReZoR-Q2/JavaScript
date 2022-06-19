@@ -1,5 +1,6 @@
-let a = 2;
-let b = 4;
+let a, b;
+// a = 2;
+// b = 4;
 
 a + b
 
