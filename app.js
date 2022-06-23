@@ -1,5 +1,13 @@
-let b = 10;
-let a = `Он сказал ${b} раз привет`;
+let car = {
+    color: 'green',
+    maxSpeed: 250,
+    audio: {
+        brand: 'Sony',
+        speakers: 12
+    }
+}
+car.color ='red';
 
-console.log(a);
-console.log(typeof a);
+console.log(typeof car.audio);
+
+console.log(car.audio);
