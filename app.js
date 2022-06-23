@@ -1,18 +1,16 @@
 let car = {
-    color: 'green',
+    color: 'blue',
     maxSpeed: 250,
+    cost: 1000,
     audio: {
         brand: 'Sony',
         speakers: 12
     }
 }
 
-if(car.color == 'red') {
-    console.log('Автомобиль красный');
+if(car.cost >= '500') {
+    console.log('Автомобиль дешовый');
 }
-else if(car.color == 'green') {
-    console.log('Автомобиль зеленый');
-} 
 else{
-    console.log('Цвет не определен');
+    console.log('Автомобиль дорогой');
 }
