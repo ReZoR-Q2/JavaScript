@@ -8,9 +8,13 @@ let car = {
     }
 }
 
-if(car.cost >= '500') {
-    console.log('Автомобиль дешовый');
+console.log(car.color);
+
+car.color = 'green'
+console.log(car.color);
+
+function colorReset() {
+    car.color = 'red';
+    console.log(car.color);
 }
-else{
-    console.log('Автомобиль дорогой');
-}
+colorReset();
