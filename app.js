@@ -1,20 +1,17 @@
 let car = {
-    color: 'blue',
-    maxSpeed: 250,
-    cost: 1000,
-    audio: {
-        brand: 'Sony',
-        speakers: 12
-    }
+    color: 'red',
+};
+let car2 = {
+    color: 'green',
+};
+
+colorChange(car);
+colorChange(car2);
+
+function colorChange(theCar) {
+    theCar.color = 'yellow';
+
 }
 
-console.log(car.color);
-
-car.color = 'green'
-console.log(car.color);
-
-function colorReset() {
-    car.color = 'red';
-    console.log(car.color);
-}
-colorReset();
+console.log("Car: " + car.color);
+console.log("Car2: " + car2.color);
