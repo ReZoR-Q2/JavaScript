@@ -13,5 +13,14 @@ function colorChange(theCar) {
 
 }
 
+<<<<<<< HEAD
 console.log("Car: " + car.color);
 console.log("Car2: " + car2.color);
+=======
+if(car.cost >= '500') {
+    console.log('Автомобиль дешовый');
+}
+else{
+    console.log('Автомобиль дорогой');
+}
+>>>>>>> parent of 08acfc2 (function)
